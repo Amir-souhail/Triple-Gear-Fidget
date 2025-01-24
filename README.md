@@ -21,16 +21,56 @@ This repository contains the design and assembly details of a compact **gear fid
    - Ensures proper alignment and sealing of the internal parts.
 3. **DIN 7341-A8X30-ST-AC-28 (Middle Rivet)**:
    - Holds the assembly layers together at the center.
+
+     ### Steps to Select in SOLIDWORKS Toolbox:
+     1. Select **DIN** and go to the **Pins** section.
+     2. Choose **Rivets** and find **Rivet Pin DIN 7341**.
+     3. Drag it into the assembly and set the following properties:
+        - **Size**: 8.
+        - **Type**: A-Countersink.
+        - **Length**: 30.
+        - **Grip Length**: 28.
+
 4. **ISO 15 ABB - 828 (Bearing/Seal)**:
    - Provides smooth rotation and supports alignment.
+
+     ### Steps to Select in SOLIDWORKS Toolbox:
+     1. Go to the SOLIDWORKS Toolbox and select **Angular Contact Ball Bearing** in the **ISO Ball Bearing** category.
+     2. Choose **Size 828** from the available options.
+     3. Set the following properties:
+        - **Number of Balls**: Full.
+        - **Display**: Detailed.
+        - **Add Cage**: Yes.
+        - **Show Balls**: Full.
+
 5. **Gear 1 (Brass)**:
    - External gears for motion transfer.
 6. **Gear 2 (Brass)**:
    - Central gear for tactile engagement.
 7. **AFBMA 12.1.4.1 - 0080-24 (Bearing/Seal)**:
    - Additional support for alignment and friction reduction.
+
+     ### Steps to Select in SOLIDWORKS Toolbox:
+     1. Go to the SOLIDWORKS Toolbox and select **Ball Bearing** in the American ANSI Standard.
+     2. Choose **AFBMA 12.1.4.1** from the available options.
+     3. In the properties, select **0080-24**.
+     4. Set the following properties:
+        - **Number of Balls**: Full.
+        - **Display**: Detailed.
+        - **Add Cage**: Yes.
+        - **Show Balls**: Full.
+
 8. **DIN 7341-A8X20-ST-AC-18 (External Rivet)**:
    - Secures external gears to the assembly.
+
+     ### Steps to Select in SOLIDWORKS Toolbox:
+     1. Select **DIN** and go to the **Pins** section.
+     2. Choose **Rivets** and find **Rivet Pin DIN 7341**.
+     3. Drag it into the assembly and set the following properties:
+        - **Size**: 8.
+        - **Type**: A-Countersink.
+        - **Length**: 20.
+        - **Grip Length**: 18.
 
 ---
 
@@ -64,18 +104,15 @@ This repository contains the design and assembly details of a compact **gear fid
 
 ## Repository Structure
 
-```plaintext
+plaintext
 📂 GearFidgetGadget
-├── 📁 CAD_Files
-│   ├── Assembly_3D_Model.step
-│   └── Gear_Designs.sldprt
-├── 📁 Documentation
-│   ├── Assembly_Instructions.pdf
-│   └── Components_List.xlsx
-├── 📁 Images
-│   └── Assembly_Rendering.jpg
+├── Assembly_3D_Model.step
+├── Gear_Designs.sldprt
+├── Assembly_Instructions.pdf
+├── Components_List.xlsx
+├── Assembly_Rendering.jpg
 └── README.md
-```
+
 
 ---
 
@@ -83,18 +120,13 @@ This repository contains the design and assembly details of a compact **gear fid
 
 Contributions to improve the design or expand its functionality are welcome. Please fork the repository, make your changes, and submit a pull request.
 
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
 
 ## Contact
 
 For further information or inquiries:
-- **Email**: your-email@example.com
+- **Email**: amir.souhail@gmail.com
 - **GitHub**: [YourGitHubProfile](https://github.com/YourGitHubProfile)
 
 ---
