@@ -127,7 +127,7 @@ Contributions to improve the design or expand its functionality are welcome. Ple
 
 For further information or inquiries:
 - **Email**: amir.souhail@gmail.com
-- **GitHub**: [YourGitHubProfile](https://github.com/YourGitHubProfile)
+- **GitHub**: [YourGitHubProfile]([https://github.com/YourGitHubProfile](https://github.com/Amir-souhail))
 
 ---
 
